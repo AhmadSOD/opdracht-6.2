@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+    
+}.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: #ff0000;
+    margin: 10px;
+}.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    margin: 10px;
+}.box4 {
+    width: 200px;
+    height: 200px;
+    background-color: #0800ff;
+    margin: 10px;
+}
